@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 
-/*https://fontawesome.com/v4/icons/
-minuto: 26
-adicionar favicon
-*/
+/*https://fontawesome.com/v4/icons/*/
+
 :root{
-    --darkblue: #242A56;
-    --lightblue: #749BE7;
-    --bg: #EFF2FF;
-    --gradient: linear-gradient(to bottom right, #2a305f,#242a5652);
+    --cor1: #401D1D;
+    --cor2: #8C7E6D;
+    --bg: #ccc1b5;
+    --gradient: linear-gradient(to bottom right, #8C7E6D,#401D1D);
     --bold : 600;
     --semi-bold : 500;
 }
@@ -35,7 +33,7 @@ ul{
 
 h1,h2,h3,h4{
     font-weight: var(--bold);
-    color: var(--darkblue);
+    color: var(--cor1);
 }
 
 p{
@@ -58,7 +56,7 @@ p{
 
 .ctn{
     padding: 9px 9px;
-    background-color: var(--lightblue);
+    background-color: var(--cor2);
     border: none;
     color: white;
     border-radius: 5px;
@@ -66,12 +64,12 @@ p{
 }
 
 .ctn:hover, .ctn:hover.ctn a{
-    color: var(--lightblue);
+    color: var(--cor2);
     background-color: white;
 }
 
 .header{
-    background-image: url(../img/header-bg.png);
+    background-image: url(../imgs/header.jpg);
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -79,13 +77,13 @@ p{
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
     padding: 10px 0;
 }
 
 .nav-item:hover a{
-    color: var(--lightblue);
+    color: var(--cor2);
 }
 
 .logo img{
@@ -130,10 +128,15 @@ ul li a{
 }
 
 .title h1{
-    padding-top: 20px;
+    padding-top: 40px;
     font-size: 2rem;
     margin-bottom: 10px;
     }
+
+.poem p{
+    text-align: center;
+    margin: 20px auto;
+}
 
 .services {
     background-color: var(--bg);
@@ -164,7 +167,7 @@ ul li a{
 
 .service .fa{
     font-size: 30px;
-    color: var(--lightblue);
+    color: var(--cor2);
     margin-bottom: 10px;
 }
 
@@ -217,7 +220,7 @@ ul li a{
 .ctn-wrapper {
     align-items: center;
     display: flex;
-    box-shadow: 4px 4px 4px 4px #0000ff28;
+    box-shadow: 4px 4px 4px 4px #9c574228;
     padding: 20px 20px;
     border-radius: 5px;
     justify-content: space-between;
@@ -232,13 +235,13 @@ ul li a{
 }
 
 .ctn-wrapper .text h1{
-    color: var(--lightblue);
+    color: var(--cor2);
     margin-bottom: 10px;
 }
 
 footer {
     padding: 60px 0;
-    background-color: var(--darkblue);
+    background-color: var(--cor1);
 }
 
 footer .container{
@@ -296,8 +299,9 @@ hr, .copyright{
     color: pink;
 }
 
-#me{
-    color: var(--lightblue);
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .toggle{
@@ -318,7 +322,7 @@ hr, .copyright{
         position: absolute;
         top: 0;
         left: 0;
-        background-color: var(--darkblue);
+        background-color: var(--cor1);
         flex-direction: column;
         width: 100vw;
         height: 100vh;
