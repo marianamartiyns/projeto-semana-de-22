@@ -22,8 +22,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
-    min-height: 100vh;
-    background-color: var(--bg);
 }
 
 a{
@@ -216,7 +214,7 @@ ul li a{
 
 .get {
     margin: 60px, auto;
-    width: 102%;
+    width: 92%;
     padding: 50px;
     align-items: center;
 }
@@ -224,7 +222,7 @@ ul li a{
 .ctn-wrapper {
     align-items: center;
     display: flex;
-    box-shadow: 4px 4px 4px 4px #9c574228;
+    box-shadow: 4px 4px 4px 4px #9c574227;
     padding: 20px 20px;
     border-radius: 5px;
     justify-content: space-between;
@@ -317,6 +315,9 @@ a{
 
 @media only screen and (max-width:750px){
 
+    html{
+        overflow-x: hidden;
+    }
     .toggle {
         display: block;
     }
