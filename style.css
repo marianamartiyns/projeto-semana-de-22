@@ -21,9 +21,9 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
+    overflow: hidden;
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: var(--bg);
 }
 
 a{
