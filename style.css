@@ -295,7 +295,7 @@ hr, .copyright{
 }
 
 #me:hover{
-    text-decoration: none;
+    text-decoration: dotted;
     color: pink;
 }
 
@@ -312,11 +312,12 @@ a{
 }
 
 @media only screen and (max-width:750px){
+
     .toggle {
         display: block;
     }
 
-    .logo img {width: 150px;}
+    /*.logo img {width: 150px;}*/
 
     .nav-list{
         position: absolute;
@@ -334,7 +335,7 @@ a{
         margin-top: 0;
     }
 
-    nav-list li{
+    .nav-list li{
         margin: 30px auto;
     }
 
@@ -368,6 +369,10 @@ a{
 
     footer .container{
         grid-template-columns: (repeat(auto-fit, minmax(150px,auto)));
+    }
+
+    footer .container .texto{
+        text-align: center;
     }
 
     footer .col{
