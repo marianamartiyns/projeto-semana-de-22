@@ -318,6 +318,7 @@ a{
     html{
         overflow-x: hidden;
     }
+    
     .toggle {
         display: block;
     }
