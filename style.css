@@ -74,7 +74,7 @@ p{
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    background-position: right center;
+    /*background-position: right center;*/
 }
 
 nav{
@@ -323,8 +323,6 @@ a{
         display: block;
     }
 
-    /*.logo img {width: 150px;}*/
-
     .nav-list{
         position: absolute;
         top: 0;
@@ -360,10 +358,10 @@ a{
     .grid{
         justify-content: center;
     }
-    
+
     .get {
         margin: 60px, auto;
-        width: 92%;
+        width: 80%;
         padding: 50px;
         align-items: center;
     }
