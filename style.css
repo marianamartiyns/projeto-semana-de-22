@@ -318,7 +318,7 @@ a{
     html{
         overflow-x: hidden;
     }
-    
+
     .toggle {
         display: block;
     }
@@ -359,6 +359,13 @@ a{
 
     .grid{
         justify-content: center;
+    }
+    
+    .get {
+        margin: 60px, auto;
+        width: 92%;
+        padding: 50px;
+        align-items: center;
     }
 
     .customers-wrapper img{
