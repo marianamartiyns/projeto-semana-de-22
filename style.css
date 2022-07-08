@@ -81,15 +81,11 @@ nav{
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .nav-item:hover a{
     color: var(--cor2);
-}
-
-.logo img{
-    width: 200px;
 }
 
 ul{
