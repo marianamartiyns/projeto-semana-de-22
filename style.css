@@ -331,7 +331,7 @@ a{
         transition: margin 0.5s ease-in-out;
     }
 
-    .nav-list.active{
+    nav-list.active{
         margin-top: 0;
     }
 
